@@ -1,0 +1,25 @@
+{
+    "name": "karakorum/app",
+    "description": "Boiler plate for any kind of php application to be started from scratch",
+    "type": "library",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Karakorum\\App\\": "engine/Controllers",
+            "Karakorum\\App\\Helpers": "engine/Helper",
+            "Karakorum\\App\\Models": "engine/Models",
+            "Karakorum\\App\\Middleware": "engine/Middleware",
+            "Karakorum\\App\\Language": "engine/Language"
+        }
+    },
+    "authors": [
+        {
+            "name": "Karakoram",
+            "email": "shahrukhusmaani@live.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5@dev"
+    }
+}
