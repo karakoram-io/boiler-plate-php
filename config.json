@@ -1,0 +1,11 @@
+{
+    "APP_NAME":"boiler-plate-php",
+    "ENVIRONMENT":"K2",
+    "ERROR_REPORTING":"ON",
+    "DB_NAME":"karakorum",
+    "DB_USER":"root",
+    "DB_PASS":"",
+    "DB_HOST":"localhost",
+    "LANGUAGE":"EN",
+    "TIME_ZONE":"Asia/Kolkata"
+}

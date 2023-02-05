@@ -12,7 +12,7 @@ class DB
     public $connection;
     public function __construct()
     {
-        $this->connection = mysqli_connect("localhost", "root", "", "karakorum");
+        $this->connection = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
     }
 
     public function __destruct()

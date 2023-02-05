@@ -1,7 +1,10 @@
 <?php
 
-include("vendor/autoload.php");
-include("Router.php");
-include("Server.php");
+// loading configs
+$configs  = json_decode(file_get_contents("config.json"));
+foreach ($configs as $key => $value) {
+    define($key, $value);
+}
 
-Route::Render();
+// summoning Thanos
+include("Bootstrap.php");

@@ -15,6 +15,10 @@ class Sample extends KController
         parent::__construct();
     }
 
+    public function index(){
+        echo "This is index function called by default";
+    }
+
     public function test()
     {
         echo "<pre>";
@@ -25,6 +29,7 @@ class Sample extends KController
         print_r($this->response->error(StatusCode::NOT_FOUND, "Not Found", []));
         echo "</pre>";
     }
+    
     /**
      * @return mixed
      */
