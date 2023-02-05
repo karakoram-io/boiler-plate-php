@@ -5,11 +5,7 @@
     "license": "GPL",
     "autoload": {
         "psr-4": {
-            "Karakorum\\App\\": "engine/Controllers",
-            "Karakorum\\App\\Helpers": "engine/Helper",
-            "Karakorum\\App\\Models": "engine/Models",
-            "Karakorum\\App\\Middleware": "engine/Middleware",
-            "Karakorum\\App\\Language": "engine/Language"
+            "Karakorum\\App\\": "engine"
         }
     },
     "authors": [
@@ -20,6 +16,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "guzzlehttp/guzzle": "^7.5@dev"
+        "guzzlehttp/guzzle": "^7.5@dev",
+        "league/plates": "v3.x-dev"
     }
 }

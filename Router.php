@@ -38,7 +38,7 @@ class Route
                 throw new Exception();
             }
             
-            $c = new $a();
+            $c = new $a(new League\Plates\Engine);
             $c->$method();
             
         } catch(Exception $e){

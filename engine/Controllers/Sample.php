@@ -10,13 +10,14 @@ class Sample extends KController
 {
     /**
      */
-    public function __construct()
+    public function __construct($template)
     {
-        parent::__construct();
+        parent::__construct($template);
     }
 
     public function index(){
-        echo "This is index function called by default";
+        $this->template->addData(['company' => 'The Company Name'], 'layout');
+        echo $this->template->render('profile', ['name' => 'Jonathan']);
     }
 
     public function test()
