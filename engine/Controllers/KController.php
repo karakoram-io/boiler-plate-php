@@ -14,6 +14,6 @@ class KController {
     {
         $this->request = new Request();
         $this->response = new Response();
-        $this->template = new $template('templates');
+        $this->template = new $template(TEMPLATES);
     }
 }

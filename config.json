@@ -7,5 +7,6 @@
     "DB_PASS":"",
     "DB_HOST":"localhost",
     "LANGUAGE":"EN",
-    "TIME_ZONE":"Asia/Kolkata"
+    "TIME_ZONE":"Asia/Kolkata",
+    "TEMPLATES":"templates"
 }
